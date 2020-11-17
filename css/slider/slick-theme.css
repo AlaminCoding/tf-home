@@ -104,13 +104,13 @@
 
 /* Dots */
 .slick-dotted.slick-slider {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .slick-dots {
   display: block;
   width: 100%;
-  margin-top: -100px;
+  margin-top: -160px;
   list-style: none;
   text-align: left;
 }

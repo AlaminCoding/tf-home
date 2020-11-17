@@ -383,7 +383,7 @@ header {
   width: 100%;
   background-position: center;
   background-size: cover;
-  padding: 150px 0px 220px 0px;
+  padding: 100px 0px 220px 0px;
 }
 
 .tf-slider-box h2 {
@@ -418,15 +418,14 @@ header {
   color: white;
   font-weight: 500;
   position: relative;
-  padding: 7px 0px;
+  padding: 7px 100px 7px 0px;
   transition: 0.5s;
-  margin-left: 86px;
 }
 .tf-btn1 a:after {
   content: "";
   position: absolute;
   top: 18px;
-  left: -75px;
+  right: 25px;
   height: 3px;
   width: 60px;
   background-color: white;
@@ -436,7 +435,7 @@ header {
   content: "";
   position: absolute;
   top: 4px;
-  left: -85px;
+  right: 0px;
   height: 30px;
   width: 30px;
   background-color: white;
@@ -446,15 +445,15 @@ header {
   text-decoration: none;
   background-color: white;
   color: #182f59;
-  padding: 7px 15px;
+  padding: 7px 50px 7px 50px;
 }
 .tf-btn1 a:hover:after {
-  transform: translateX(80px);
+  transform: translateX(-80px);
   transition: 0.5s;
   opacity: 0;
 }
 .tf-btn1 a:hover:before {
-  transform: translateX(80px);
+  transform: translateX(-80px);
   opacity: 0;
 }
 .tf-btn2 {
@@ -632,7 +631,7 @@ header {
   }
 }
 .home-category {
-  padding: 60px 0px;
+  padding: 100px 0px;
 }
 .home-category-img {
   text-align: center;
@@ -681,15 +680,15 @@ header {
   color: black;
   font-weight: 500;
   position: relative;
-  padding: 7px 0px;
-  transition: 0.5s;
+  padding: 7px 100px 7px 0px;
+  transition: 0.6s;
 }
 .home-btn a:after,
 .uas-btn a:after {
   content: "";
   position: absolute;
   top: 18px;
-  right: -75px;
+  right: 15px;
   height: 3px;
   width: 60px;
   background-color: #0b7c05;
@@ -707,7 +706,7 @@ header {
   content: "";
   position: absolute;
   top: 4px;
-  right: -85px;
+  right: 0px;
   height: 30px;
   width: 30px;
   background-color: #0b7c05;
@@ -724,7 +723,7 @@ header {
   text-decoration: none;
   background-color: #0b7c05;
   color: white;
-  padding: 7px 15px;
+  padding: 7px 50px 7px 50px;
 }
 .ec-btn a:hover {
   background-color: #022e75;
@@ -760,7 +759,7 @@ header {
   margin-bottom: 0px;
 }
 .uas-row {
-  margin-top: 60px;
+  margin-top: 120px;
 }
 
 .uas-img img {
@@ -786,7 +785,7 @@ header {
   margin-bottom: 35px;
 }
 .hc-slider {
-  padding: 60px 0px;
+  padding: 120px 0px;
 }
 .hc-slider-box {
   height: 100%;
@@ -1064,7 +1063,7 @@ header {
     font-size: 18px;
   }
   .hc-glide-bullets {
-    left: 31%;
+    left: 50%;
   }
   .hr-section-sm {
     padding: 35px 0px;
@@ -1087,6 +1086,18 @@ header {
   }
   .he-input {
     width: 100%;
+  }
+  .uas-btn {
+    text-align: center;
+  }
+  .uas-btn a {
+    padding: 7px 84px 7px 0px;
+  }
+  .uas-btn a:hover {
+    padding: 7px 42px 7px 42px;
+  }
+  .uas-row {
+    margin-top: 60px;
   }
 }
 
