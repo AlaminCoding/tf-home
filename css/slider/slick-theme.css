@@ -131,7 +131,7 @@
   font-size: 25px;
   line-height: 0;
   display: block;
-  width: 125px;
+  width: 115px;
   height: 4px;
   cursor: pointer;
   color: transparent;
@@ -182,10 +182,10 @@
     width: 0px;
   }
   to {
-    width: 125px;
+    width: 115px;
   }
 }
 .slick-dots span {
-  font-size: 12px;
+  font-size: 11px;
   color: white;
 }
