@@ -2116,3 +2116,440 @@ footer {
     margin-bottom: 30px;
   }
 }
+/* Testimonial */
+.testi-banner {
+  background-image: url("../img/testimonial/header.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 200px 0px;
+}
+.testi-banner h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.testi-banner p {
+  font-size: 20px;
+}
+.testi-feature {
+  margin-top: 60px;
+}
+.feature-title {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #182f59;
+  margin-bottom: 55px;
+}
+.feature-row {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 40px 0px;
+}
+.feature-row:nth-last-child(1) {
+  border-top: none;
+}
+.feature-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.feature-box p {
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.feature-img {
+  text-align: right;
+}
+.feature-img img {
+  height: 100px;
+}
+.feature-img h2 {
+  color: #182f59;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 7px 0px;
+}
+.feature-img p {
+  color: #747c90;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.fslide-img {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fslide-img img {
+  width: 80%;
+}
+.prev-img {
+  background-color: rgb(24, 47, 89);
+  padding: 10px;
+  border-radius: 50%;
+}
+.prev-img img {
+  height: 24px;
+}
+.feature-slider {
+  margin-top: 60px;
+  padding-bottom: 50px;
+}
+.feature-slider .glide__arrow {
+  top: 90%;
+}
+.happy-slider .glide__arrow {
+  top: 99%;
+}
+.feature-slider .glide__arrow--left,
+.happy-slider .glide__arrow--left {
+  left: 47%;
+  transform: translateX(-47%);
+}
+.feature-slider .glide__arrow--right,
+.happy-slider .glide__arrow--right {
+  right: 47%;
+  transform: translateX(47%);
+}
+.video-testi {
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: #182f59;
+}
+.vt-title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center;
+}
+.vt-row {
+  padding: 40px 0px;
+  border-bottom: 1px solid white;
+}
+.vt-row {
+  padding: 40px 0px;
+  border-bottom: 1px solid white;
+}
+.vt-row:nth-last-child(1) {
+  border-bottom: none;
+}
+.vt-text img {
+  margin-bottom: 30px;
+}
+.vt-text p {
+  color: white;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+.vt-img {
+  position: relative;
+}
+.vt-img .play-img {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.vt-img img {
+  width: 100%;
+}
+.vt-text h2 {
+  color: white;
+  margin-top: 30px;
+}
+.testi-approch {
+  margin-top: 60px;
+  background-image: url("../img/testimonial/CTA-image.png");
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 115px 0px;
+}
+.testi-approch p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.testi-approch h2 {
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-size: 28px;
+  margin: 10px 0px 30px 0px;
+}
+.testi-approch a {
+  color: white;
+  display: inline-block;
+  border: 3px solid white;
+  padding: 6px 20px;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.testi-approch a:hover {
+  text-decoration: none;
+  background-color: #182f59;
+  border: 3px solid #182f59;
+}
+.people-slider {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.people-slider h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #182f59;
+  font-family: "Roboto Slab", serif;
+}
+.pslide-box {
+  position: relative;
+  background-color: #d2d6de;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 90px 0px;
+}
+.pslide-box img {
+  display: block;
+  margin: 0 auto;
+}
+.pslide-box .ps-face {
+  width: 140px;
+  position: absolute;
+  top: -74px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ps-quote {
+  width: 40px;
+}
+.pslide-box p {
+  margin-top: 15px;
+  color: black;
+  padding: 0px 50px;
+  font-size: 20px;
+}
+.pslide-box p:nth-last-child(1) {
+  margin-top: 0;
+  color: #686c7c;
+  font-size: 20px;
+}
+.ps-line {
+  width: 70%;
+  background-color: #5bbc2e;
+  height: 1px;
+  margin: 0 auto;
+}
+.pslide-box h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.people-slider .glide__bullets {
+  bottom: 4em;
+}
+.people-slider .glide__bullet {
+  background-color: #272e4a;
+  height: 18px;
+  width: 18px;
+}
+.people-slider .glide__bullet--active {
+  background-color: #5bbc2e;
+}
+.ppl-img {
+  padding: 50px 150px;
+  background-color: white;
+}
+.ppl-img img {
+  width: 100%;
+}
+.testi-happy {
+  padding: 50px 0px;
+  background-color: white;
+}
+.th-title {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+.th-text {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+.testi-happy select {
+  margin-top: 30px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  height: 50px;
+  font-size: 20px;
+  padding: 0px 15px;
+  background-color: white;
+  border: 1px solid rgb(128, 128, 128, 0.5);
+  margin-top: 30px;
+}
+.happy-slider {
+  margin-top: 50px;
+}
+.happy-slider .glide__slide {
+  padding: 0px 10px;
+}
+.hslider-box {
+  background-color: #f4f4f4;
+  position: relative;
+  padding-top: 130px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.p-ribon {
+  position: absolute;
+  background-color: #111125;
+  color: white;
+  padding: 10px 30px;
+  font-size: 26px;
+  top: 40px;
+  left: -10px;
+}
+.p-ribon:after {
+  content: "";
+  position: absolute;
+  background-color: #111125;
+  height: 20px;
+  width: 10px;
+  bottom: -6px;
+  left: 0;
+  transform: skewY(50deg);
+}
+.hs-img {
+  height: 150px;
+}
+.hs-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0px 20px;
+  margin-top: 30px;
+}
+.hs-man1 {
+  width: 90px;
+  margin-right: 20px;
+}
+.quotep-img {
+  position: absolute;
+  top: -7px;
+  right: 35px;
+  height: 50px;
+}
+.hs-box h2 {
+  margin-bottom: 0;
+  font-size: 26px;
+  text-align: left;
+}
+.hs-box p {
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #172e58;
+}
+.hs-main-text {
+  text-align: left;
+  margin-top: 30px;
+  color: black;
+  padding: 0px 20px;
+  font-size: 17px;
+}
+@media screen and (max-width: 575px) {
+  .testi-banner h2 {
+    font-size: 34px;
+  }
+  .testi-banner {
+    padding: 85px 0px;
+  }
+  .testi-feature {
+    margin-top: 35px;
+  }
+  .feature-title {
+    margin-bottom: 35px;
+  }
+  .feature-img {
+    text-align: center;
+    margin-bottom: 17px;
+  }
+  .feature-slider .glide__arrow--right,
+  .happy-slider .glide__arrow--right {
+    right: 40%;
+    transform: translateX(40%);
+  }
+  .feature-slider .glide__arrow--left,
+  .happy-slider .glide__arrow--left {
+    left: 40%;
+    transform: translateX(-40%);
+  }
+  .feature-slider {
+    margin-top: 0px;
+    padding-bottom: 50px;
+  }
+  .vt-text img {
+    margin-bottom: 20px;
+    margin-top: 28px;
+  }
+  .remote-img {
+    width: 100%;
+  }
+  .pslide-box {
+    width: 100%;
+    padding: 75px 0px;
+  }
+  .pslide-box p {
+    padding: 0px 10px;
+    line-height: 22px;
+  }
+  .ps-line {
+    width: 90%;
+  }
+  .ppl-img {
+    padding: 16px 4px;
+  }
+  .testi-happy select {
+    width: 100%;
+  }
+  .hslider-box {
+    padding-top: 110px;
+  }
+  .p-ribon {
+    font-size: 22px;
+  }
+  .hs-img {
+    height: 125px;
+  }
+  .quotep-img {
+    top: -30px;
+    right: 10px;
+    height: 40px;
+  }
+  .hs-box {
+    padding: 0px 10px;
+  }
+  .hs-man1 {
+    margin-right: 10px;
+  }
+  .hs-box p {
+    text-align: left;
+  }
+  .testi-approch {
+    background-position: 88%;
+  }
+}
