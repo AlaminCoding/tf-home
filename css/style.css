@@ -1787,11 +1787,15 @@ footer {
   }
 }
 /* Career Banner */
-.career-banner {
+.career-banner,
+.fran-banner {
   background-image: url("../img/career/header.png");
   padding: 240px 0px;
   background-position: center;
   background-size: cover;
+}
+.fran-banner {
+  background-image: url("../img/franchise/header.png");
 }
 .cb-title {
   text-transform: uppercase;
@@ -2551,5 +2555,300 @@ footer {
   }
   .testi-approch {
     background-position: 88%;
+  }
+}
+/* Franchise Program */
+.fran-why {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: white;
+}
+.tfh-title,
+.tfh-title-right {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.tfh-title-right {
+  text-align: left;
+}
+.fran-sub {
+  color: #182f59;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.fran-text {
+  color: black;
+  line-height: 22px;
+}
+.fran-bar {
+  background-color: #182f59;
+  height: 8px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+.fw-row {
+  margin-top: 30px;
+}
+.fw-img img {
+  width: 100%;
+}
+.fw-box {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+}
+.fw-box img {
+  margin-right: 8px;
+  width: 80px;
+}
+.fw-box h2 {
+  font-size: 16px;
+  color: black;
+}
+.fw-box p {
+  line-height: 19px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: black;
+}
+.fran-icon-row .col-md-6 {
+  padding: 0;
+}
+
+.fran-emp {
+  margin-top: 60px;
+}
+.fe-img img {
+  width: 100%;
+}
+
+.fran-emp p {
+  line-height: 22px;
+  color: black;
+}
+.fran-emp ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.fran-emp ul li {
+  color: black;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+.fran-emp ul li i {
+  color: #182f59;
+  margin-top: 6px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.fran-map {
+  margin-top: 80px;
+}
+.fm-img {
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+}
+.fm-img img {
+  width: 80%;
+}
+.cl-row {
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  bottom: 0;
+}
+.cl-row ul {
+  padding-left: 0px;
+}
+.cl-row ul li {
+  font-family: "Roboto Slab", serif;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.cl-row ul li i {
+  color: #182f59;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+.fran-member-img {
+  margin-top: 80px;
+}
+.fran-member-img img {
+  width: 100%;
+}
+.hr-cta {
+  margin-bottom: 80px;
+  margin-top: 60px;
+}
+.hrc-box {
+  border: 4px solid #182f59;
+  padding: 80px 0px;
+  text-align: center;
+  margin-bottom: 26px;
+  position: relative;
+}
+.hrc-box h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.hrc-box p {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0px;
+}
+.hrc-box a {
+  position: absolute;
+  color: white;
+  background-color: #575757;
+  padding: 14px 50px;
+  bottom: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  transition: 0.5s;
+}
+.hrc-box a:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.hrc-box a:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 51%;
+  top: 0;
+  left: -51%;
+  background-color: #182f59;
+  z-index: -1;
+  transition: 0.5s;
+}
+.hrc-box a:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 51%;
+  top: 0;
+  right: -51%;
+  background-color: #182f59;
+  z-index: -1;
+  transition: 0.5s;
+}
+.hrc-box a:hover:after {
+  left: 0%;
+  transition: 0.5;
+}
+.hrc-box a:hover::before {
+  right: 0%;
+  transition: 0.5s;
+}
+.ccsp-resource {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.ccspr-outer {
+  background-color: #f4f4f4;
+  padding: 60px 0px 1px 0px;
+  margin-top: 30px;
+  border-top: 3px solid #182f59;
+  border-bottom: 3px solid #182f59;
+}
+.ccspr-row {
+  margin-bottom: 60px;
+}
+.ccspr-img img {
+  width: 100%;
+}
+.ccspr-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.ccspr-right h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.ccspr-right p {
+  color: black;
+  margin-bottom: 35px;
+}
+.ccspr-btn {
+  border: 2px solid #182f59;
+  color: black;
+  border-radius: 3px;
+  padding: 8px 26px;
+  transition: 0.5s;
+}
+.ccspr-btn:hover {
+  color: white;
+  background-color: #182f59;
+  text-decoration: none;
+}
+@media screen and (max-width: 575px) {
+  .hrc-box a {
+    padding: 14px 35px;
+  }
+  .hrc-box {
+    padding: 50px 0px;
+  }
+  .hrc-box h2 {
+    font-size: 22px;
+  }
+  .ccsp-resource {
+    margin-top: 30px;
+  }
+  .ccspr-outer {
+    padding: 35px 0px 1px 0px;
+  }
+  .ccspr-right {
+    height: auto;
+    margin-top: 20px;
+  }
+  .fran-banner {
+    padding: 153px 0px;
+    background-position: 78%;
+  }
+  .fran-sub {
+    font-size: 18px;
+  }
+  .fran-icon-row .col-md-6 {
+    padding: 0px 14px;
+  }
+  .fran-why {
+    padding-bottom: 30px;
+  }
+  .fran-emp {
+    margin-top: 30px;
+  }
+  .fran-map {
+    margin-top: 40px;
+  }
+  .fm-img img {
+    width: 100%;
+  }
+  .cl-row ul li {
+    margin-top: 8px;
+  }
+  .cl-row {
+    position: relative;
+  }
+  .fm-img {
+    margin-top: 20px;
+  }
+  .fran-member-img {
+    margin-top: 20px;
   }
 }
