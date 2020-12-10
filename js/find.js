@@ -1,14 +1,38 @@
-const tabLink = document.querySelectorAll(".tab-link");
-const tabBox = document.querySelectorAll(".tab-box");
-tabLink.forEach((element, index) => {
+const tabLinkLg = document.querySelectorAll(".link-lg");
+const tabLinkSm = document.querySelectorAll(".link-sm");
+const tabBoxLg = document.querySelectorAll(".tab-lg");
+const tabBoxSm = document.querySelectorAll(".tab-sm");
+
+tabLinkLg.forEach((element, index) => {
   element.addEventListener("click", () => {
-    for (var i = 0; i < tabLink.length; i++) {
+    for (var i = 0; i < tabLinkLg.length; i++) {
       if (i != index) {
-        tabBox[i].style.display = "none";
-        tabLink[i].classList.remove("link-active");
+        tabBoxLg[i].style.display = "none";
+        tabBoxSm[i].style.display = "none";
+        tabLinkLg[i].classList.remove("link-active");
+        tabLinkSm[i].classList.remove("link-active");
       } else {
-        tabBox[i].style.display = "block";
-        tabLink[i].classList.add("link-active");
+        tabBoxLg[i].style.display = "block";
+        tabBoxSm[i].style.display = "block";
+        tabLinkLg[i].classList.add("link-active");
+        tabLinkSm[i].classList.add("link-active");
+      }
+    }
+  });
+});
+tabLinkSm.forEach((element, index) => {
+  element.addEventListener("click", () => {
+    for (var i = 0; i < tabLinkLg.length; i++) {
+      if (i != index) {
+        tabBoxLg[i].style.display = "none";
+        tabBoxSm[i].style.display = "none";
+        tabLinkLg[i].classList.remove("link-active");
+        tabLinkSm[i].classList.remove("link-active");
+      } else {
+        tabBoxLg[i].style.display = "block";
+        tabBoxSm[i].style.display = "block";
+        tabLinkLg[i].classList.add("link-active");
+        tabLinkSm[i].classList.add("link-active");
       }
     }
   });
