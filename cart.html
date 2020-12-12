@@ -10,7 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Trust Center</title>
+    <title>Cart</title>
   </head>
   <body>
     <header>
@@ -707,65 +707,84 @@
         </nav>
       </div>
     </header>
-    <!--Banner Section-->
-    <section class="trust-banner">
+    <section class="pro-section">
       <div class="container">
-        <h2>techforing trust center</h2>
-      </div>
-    </section>
-
-    <section class="trust-main">
-      <div class="container">
-        <h2>our Purpose</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
-        </p>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
-        </p>
-      </div>
-    </section>
-
-    <section class="trust-cta">
-      <div class="container">
-        <h2>
-          Trust is foundational to our company and how we <br />
-          engage with our clients
-        </h2>
-        <div class="row justify-content-between">
-          <div class="col-md-5">
-            <div class="trust-box">
-              <h2>techforing privacy policy</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text.
-              </p>
-              <div class="cs-box-btn">
-                <a href="#">Explore More</a>
-              </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="user-img">
+              <img src="img/profile/user.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="trust-box">
-              <h2>techforing terms of use</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text.
-              </p>
-              <div class="cs-box-btn">
-                <a href="#">Explore More</a>
+          <div class="col-md-4">
+            <div class="user-basic">
+              <h2>Afsana Communication</h2>
+              <p>biyogafsana@gmail.com</p>
+              <p>+8801628553806</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pro-menu">
+      <div class="container">
+        <ul>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Events & Webinars</a></li>
+          <li><a href="#">reading list</a></li>
+          <li><a href="#">products & services</a></li>
+          <li><a href="#">Your Cart</a></li>
+          <li><a href="#">Order History</a></li>
+          <li><a href="#">Subscription</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="cart-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="cart-list">
+              <h2>Your Product List</h2>
+              <table>
+                <tr>
+                  <th>Service Name</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                  <th>Discount</th>
+                  <th>Action</th>
+                </tr>
+                <tr>
+                  <td>Data Privacy Protection</td>
+                  <td>2</td>
+                  <td>$1000</td>
+                  <td>$10</td>
+                  <td>
+                    <button><i class="fas fa-trash-alt"></i></button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cart-order">
+              <h2>Order Summary</h2>
+              <div class="order-sum">
+                <p>Subtotal (1 Item)</p>
+                <table>
+                  <tr>
+                    <td>Coupon</td>
+                    <td>...</td>
+                  </tr>
+                  <tr>
+                    <td>Vat & Tax</td>
+                    <td>$3</td>
+                  </tr>
+                  <tr>
+                    <td>Total</td>
+                    <td>$997</td>
+                  </tr>
+                </table>
+                <a href="#">Proceed to checkout</a>
               </div>
             </div>
           </div>
@@ -909,5 +928,6 @@
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/career.js"></script>
+    <script src="js/find.js"></script>
   </body>
 </html>
