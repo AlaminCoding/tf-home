@@ -2054,6 +2054,8 @@ footer {
 }
 .positions {
   position: relative;
+  padding: 10px 5px;
+  overflow-y: scroll;
 }
 .position-box {
   position: absolute;
@@ -2093,6 +2095,85 @@ footer {
 .position-box {
   display: none;
   z-index: 1;
+}
+.c-link {
+  cursor: pointer;
+}
+.circular {
+  position: absolute;
+  height: auto;
+  width: auto;
+  background-color: #182f59;
+  top: 0;
+  left: 0;
+  padding: 20px 35px;
+  z-index: 2;
+  display: none;
+}
+h2.circular-title {
+  font-size: 22px;
+}
+.circular p {
+  color: white;
+  text-align: left;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+h2.circular-point {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.circular ul {
+  list-style-type: disc;
+  color: white;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.circular ul li {
+  border-bottom: none;
+  padding: 0px;
+}
+.circular-form {
+  margin-top: 30px;
+}
+.circular-form input {
+  display: block;
+  width: 300px;
+  border: none;
+  margin: 10px 0px;
+  padding: 5px;
+}
+input[type="file" i] {
+  color: white;
+  cursor: pointer;
+  padding-left: 0;
+}
+.circular-form input:focus {
+  outline: none;
+}
+.circular-form label {
+  color: white;
+  margin-bottom: 0px;
+}
+.circular-form button {
+  margin-top: 10px;
+  background-color: white;
+  color: #182f59;
+  font-weight: 500;
+  padding: 5px 30px;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  padding: 0px 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #182f59;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 .our-location {
   margin-top: 40px;
@@ -2175,6 +2256,18 @@ footer {
     margin-top: 5px;
     margin-bottom: 30px;
   }
+  .circular {
+    padding: 20px 7px;
+  }
+  h2.circular-title {
+    font-size: 22px;
+  }
+  h2.circular-point {
+    font-size: 20px;
+  }
+  .circular-form button {
+    padding: 5px 30px;
+  }
 }
 /* Testimonial */
 .testi-banner {
@@ -2190,9 +2283,7 @@ footer {
   font-size: 40px;
   text-transform: uppercase;
 }
-.testi-banner p {
-  font-size: 20px;
-}
+
 .testi-feature {
   margin-top: 60px;
 }
@@ -3929,4 +4020,278 @@ footer {
 }
 .event-box a:hover {
   text-decoration: none;
+}
+/*Order History*/
+.oh-section {
+  margin: 40px 0px 50px 0px;
+}
+.oh-section h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.oh-table {
+  overflow-x: scroll;
+}
+.oh-table table {
+  width: 100%;
+  text-align: center;
+  border: 2px solid white;
+}
+.oh-table table th {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.oh-table table td {
+  color: black;
+  font-size: 14px;
+}
+.oh-table table tr {
+  border-bottom: 2px solid black;
+}
+.oh-table table th,
+.oh-table table td {
+  padding: 15px 0px;
+}
+@media screen and (max-width: 575px) {
+  .oh-table table th,
+  .oh-table table td {
+    padding: 15px 10px;
+  }
+}
+/*Product and Services*/
+.p-s-title,
+.p-s-title2 {
+  font-size: 28px;
+  color: black;
+  margin: 30px 0px;
+}
+.p-s-title2 {
+  margin-top: 0;
+}
+.p-s-img img {
+  width: 100%;
+}
+.p-s-box {
+  background-color: white;
+  padding-left: 30px;
+  height: 100%;
+  padding-top: 10px;
+  position: relative;
+}
+.p-s-box h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+}
+.ps-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.ps-ul li {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.ps-ul-aca li {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.ps-ul li i {
+  color: #182f59;
+  font-size: 12px;
+  margin-top: 7px;
+  margin-right: 6px;
+}
+.ps-ul ul {
+  list-style: none;
+}
+.ps-ul ul li {
+  font-weight: 400;
+  margin-top: 3px;
+  font-size: 15px;
+}
+.p-s-box a {
+  position: absolute;
+  display: inline-block;
+  background-color: #182f59;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  bottom: 20px;
+  right: 20px;
+}
+.p-s-section .row {
+  margin-bottom: 60px;
+}
+.p-s-box h3 {
+  font-size: 17px;
+  color: #182f59;
+  margin: 20px 0px;
+}
+.p-s-box p {
+  color: black;
+  line-height: 22px;
+}
+@media screen and (max-width: 575px) {
+  .p-s-box {
+    padding-left: 10px;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .p-s-section .row {
+    margin-bottom: 40px;
+  }
+}
+/* Reading LIst */
+.read-section {
+  margin: 40px 0px;
+}
+.read-title {
+  font-size: 26px;
+}
+.read-box {
+  background-color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+.read-box h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.read-box p {
+  color: black;
+  line-height: 22px;
+  margin: 20px 0px;
+}
+.read-box a {
+  display: inline-block;
+  color: white;
+  background-color: #182f59;
+  text-transform: uppercase;
+  padding: 8px 20px;
+}
+/*Subscription*/
+.subscrip-section {
+  margin: 30px 0px 60px 0px;
+}
+.subscrip-section h2 {
+  font-size: 26px;
+}
+.subs-box {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  background-color: white;
+  padding: 0px 20px 20px 60px;
+  position: relative;
+}
+.subs-box:after {
+  content: "";
+  position: absolute;
+  height: 95%;
+  width: 98%;
+  background-color: #182f59;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+}
+.subs-price {
+  background-color: #182f59;
+  display: inline-block;
+  color: white;
+  padding: 8px 15px;
+  margin-top: -20px;
+}
+.subscrip-section .subs-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 13px;
+  color: black;
+}
+.subs-box table {
+  width: 100%;
+  color: black;
+}
+.subs-box td {
+  font-weight: 500;
+  padding: 5px 0px;
+}
+.subs-box td:nth-child(even) {
+  text-align: right;
+}
+@media screen and (max-width: 575px) {
+  .subs-box {
+    padding: 0px 20px 20px 20px;
+  }
+}
+
+/* Become a partner */
+
+.bpartner-banner {
+  background-image: url("../img/bpartner/header.png");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.bform {
+  margin: 40px 0px 60px 0px;
+}
+.bform h2 {
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  color: #182f59;
+  font-size: 28px;
+}
+.bform p {
+  font-size: 18px;
+  color: black;
+}
+.bform-group {
+  margin-bottom: 30px;
+}
+.bform label {
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: black;
+  display: block;
+}
+.bform input,
+.bform select {
+  width: 100%;
+  height: 35px;
+  border: 1px solid black;
+  outline: none;
+}
+.bform input:focus {
+  outline: none;
+}
+.bform textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid black;
+}
+.bform-row {
+  margin-top: 50px;
+}
+.bform-img img {
+  width: 100%;
+}
+.bform button {
+  background-color: #182f59;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 30px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+@media screen and (max-width: 575px) {
+  .bform-main {
+    margin-top: 30px;
+  }
 }
